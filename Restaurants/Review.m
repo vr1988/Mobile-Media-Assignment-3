@@ -6,9 +6,9 @@
 //  Copyright (c) 2012 Fashion Institute of Technology. All rights reserved.
 //
 
-#import "reviews.h"
+#import "Review.h"
 
-@implementation reviews
+@implementation Review
 
 
 @end

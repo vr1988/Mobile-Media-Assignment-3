@@ -7,9 +7,35 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Restaurant.h"
 
-@interface reviews : NSObject
+@interface Review : NSObject
+{
+    NSString* reviewerName;
+    NSString* reviewer;
+    NSString* text;
+    int score;
+    int numberOfHelpfulRatings;
+    int numberOfUnHelpfulRatings;
+    int numberOfHelpfulReviews;
+    int numberOfUnhelpfulReviews;
+    NSArray* review1;
+    NSArray* review2;
+    NSArray* review3;
+    NSArray* review4;
 
+}
+@property(nonatomic, retain) NSArray* review1;
+@property(nonatomic, retain) NSArray* review2;
+@property(nonatomic, retain) NSArray* review3;
+@property(nonatomic, retain) NSArray* review4;
 
+@property(readwrite) int reviewer;
+@property(readwrite) int numberofHelpfulRatings;
+@property(readwrite) int numberofUnHelpfulRatings;
+@property(readwrite) int numberOfHelpfulReviews;
+@property(readwrite) int numberOfUnhelpfulReviews;
+@property(readwrite) int score;
 
+-(int)age;
 @end

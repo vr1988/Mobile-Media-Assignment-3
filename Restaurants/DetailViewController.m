@@ -5,14 +5,13 @@
 //
 
 #import "DetailViewController.h"
-#import "reviews.h"
+#import "Review.h"
 
 @implementation DetailViewController
 @synthesize addressLabel;
 @synthesize navigationHeader;
 @synthesize cuisineLabel;
 @synthesize text;
-@synthesize reviews;
 @synthesize ageLabel;
 @synthesize helpfulReviewPercentageLabel;
 @synthesize helpfulReviewLabel;
@@ -21,14 +20,6 @@
 @synthesize star3;
 @synthesize star4;
 @synthesize star5;
-@synthesize review1;
-@synthesize review2;
-@synthesize review3;
-@synthesize review4;
-@synthesize Review; 
-@synthesize score;
-@synthesize numberofHelpfulReviews;
-@synthesize numberofUnhelpfulReviews;
 
 
 #pragma mark - View lifecycle
